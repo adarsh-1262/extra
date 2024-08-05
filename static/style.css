@@ -1,0 +1,116 @@
+*{
+    margin:0px;
+}
+#main, #canvas{
+    border:2px solid black;
+
+}
+#canvas{
+    width:80%;
+    margin:auto;
+    height: 800px;
+}
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#form{
+    width:370px;
+    height:605px;
+    margin:auto;
+    margin-top:100px;
+    border:1px solid red;
+    border-radius: 5px;
+
+}
+.form.h1{
+    text-align: center;
+}
+.mb-3{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.search_nav{
+    margin-left: 225px;
+    margin-right: 230px;
+    
+}
+.container-fluid{
+    margin-top: 10px;
+}
+.form-control me-2{
+    border-color: brown;
+}
+
+
+
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border:1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: red;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid darkgreen;
+    background:green;
+    transition: 1s;
+}
+.headings{
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.table{
+    position: relative;
+    margin-top: 10px;
+    width: 70%;
+
+}
+.headings{
+    text-align: left;
+    font-weight: 600;
+    margin: 10px 0;
+    border:#f44336;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.username{
+    margin-left: 50px;
+}
+
+#reg {
+    height: 400px;
+}
+/* Add this CSS to your /static/style.css file or within a <style> tag in your HTML head */
+
+.centered-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust if necessary */
+}
+
+.profile-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.profile{
+    width:370px;
+    height:475px;
+    margin:auto;
+    margin-top:100px;
+    border:1px solid red;
+    border-radius: 5px;
+
+}
